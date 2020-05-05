@@ -312,7 +312,7 @@ function MoveField(){       //フィールド進行処理
 
 		if( m == 10 || m == 11 ){	//	街
 			gHp = gMHp;										//	HP全回復
-			SetMessage( "西の果てにも", "村があります" );
+			SetMessage( "東の果てにも", "村があります" );
 		}
 
 		if( m == 13){//洞窟
